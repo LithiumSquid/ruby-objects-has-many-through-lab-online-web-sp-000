@@ -20,7 +20,7 @@ def Patient
     
     def doctors
       Appointment.all.select do |doctor|
-        appointment.doctor == self
+        appointment.doctor
       end
     end
     
