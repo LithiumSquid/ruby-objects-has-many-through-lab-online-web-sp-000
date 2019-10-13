@@ -10,6 +10,10 @@ class Song
     @@all << self
   end
   
+  def artist
+    @artist
+  end
+  
   def self.all
     @@all
   end
