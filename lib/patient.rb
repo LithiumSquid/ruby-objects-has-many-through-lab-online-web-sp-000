@@ -1,5 +1,6 @@
 def Patient
   attr_accessor :name
+  attr_reader :doctor, :date
   @@all = []
   
   def initialize(name)
