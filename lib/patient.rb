@@ -10,7 +10,6 @@ def Patient
   
   def new_appointment(doctor, date)
     Appointment.new(doctor, self, date)
-    appointment.patient = self
   end
   
   def appointments
